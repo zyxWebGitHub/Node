@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>index</title>
+    <link rel="stylesheet" href="/public/css/css.css">
+    <link rel="stylesheet" href="/public/css/form.css">
+</head>
+<body>
+<header>
+    <div class="left"> 用户管理系统</div>
+    <div class="right"> 欢迎登陆 admin | 退出</div>
+</header>
+    <div class="slide">
+        <ul>
+            <li>用户信息</li>
+        </ul>
+    </div>
+    <div class="content">
+        <div class="box">
+            <div class="top">添加信息</div>
+        <form action="/add" method="post">
+            <table>
+                <tr>
+                    <td>姓名：</td>
+                    <td><input type="text" name="name" class="text" placeholder="请输入用户名"></td>
+                </tr>
+                <tr>
+                    <td>性别：</td>
+                    <td>
+                        男：<input type="radio" name="gender" value="0">
+                        女：<input type="radio" name="gender" value="1">
+                    </td>
+                </tr>
+                <tr>
+                    <td>年龄：</td>
+                    <td><input type="number" name="age" class="text"></td>
+                </tr>
+                <tr>
+                    <td>爱好：</td>
+                    <td><input type="text" name="hobbies" class="text"></td>
+                </tr>
+                <tr>
+                    <td>职位：</td>
+                    <td><input type="text" name="job" class="text"></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="submit" value="提交" class="button">
+                        <input type="reset" value="重置" class="button">
+                    </td>
+                </tr>
+            </table>
+        </form>
+        </div>
+    </div>
+</body>
+</html>

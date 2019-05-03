@@ -1,0 +1,47 @@
+input,button {
+    border: 0;
+    outline: none; /*清除鼠标点击时自带外边框样式*/
+    padding: 0;
+    margin: 0;
+}
+.box {
+    margin: 40px;
+    width: 80%;
+    height: 100%;
+    border:1px solid #ccc;
+}
+.box .top {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 10px;
+    background-color: #0E88FF;
+    color: #fff;
+    box-sizing: border-box;
+}
+table {
+    margin: 50px 100px;
+    width: 80%;
+}
+table tr {
+    height: 60px;
+}
+.text {
+    width: 450px;
+    height: 35px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding-left: 10px;
+}
+.button {
+    height: 40px;
+    width: 120px;
+    background-color: #0E88FF;
+    margin: 0 20px;
+    color: #fff;
+    cursor: pointer;
+}
+input:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+}

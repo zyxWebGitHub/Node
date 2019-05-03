@@ -1,0 +1,61 @@
+/*图标字体*/
+@font-face {
+    font-family: 'icomoon';
+    src: url('fonts/icomoon.eot?7kkyc2');
+    src: url('fonts/icomoon.eot?7kkyc2#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?7kkyc2') format('truetype'),
+    url('fonts/icomoon.woff?7kkyc2') format('woff'),
+    url('fonts/icomoon.svg?7kkyc2#icoomon') format('svg');
+    font-weight: normal;
+}
+ul, li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+body{
+    margin: 0;
+}
+header{
+    height: 50px;
+    line-height: 50px;
+    width: 100%;
+    background-color: #0E88FF;
+    color: #fff;
+    font-family: 'icomoon';
+}
+header .left{
+    float: left;
+    height: 100%;
+    width: 200px;
+    text-align: center;
+}
+header .right {
+    float: right;
+    width: 250px;
+    height: 100%;
+}
+.slide {
+    position: absolute;
+    left: 0;
+    top: 50px;
+    height: 600px;
+    width: 15%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding-top: 20px;
+}
+.slide ul li {
+    height: 35px;
+    line-height: 35px;
+    background-color: #999;
+}
+.content {
+    position: absolute;
+    right: 0;
+    top: 50px;
+    width: 85%;
+    height: 500px;
+}
+
