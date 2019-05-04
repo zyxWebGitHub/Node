@@ -5,8 +5,8 @@
  *    2.1 模板引擎
  *    2.2 body-parser 解析表单 post 请求体
  *    2.3 提供相关的静态资源服务（开放public目录）
- * 44444444
- *
+ * 3. 挂载路由
+ * 4. 监听端口 开启服务
  * */
 
 var express = require('express')

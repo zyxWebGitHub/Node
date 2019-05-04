@@ -32,8 +32,13 @@
                 <tr>
                     <td>性别：</td>
                     <td>
-                        男：<input type="radio" name="gender" value="0">
+                        {{ if user.gender == 0 }}
+                        男：<input type="radio" name="gender" value="0" checked>
                         女：<input type="radio" name="gender" value="1">
+                        {{ else }}
+                        男：<input type="radio" name="gender" value="0" >
+                        女：<input type="radio" name="gender" value="1" checked>
+                        {{ /if }}
                     </td>
                 </tr>
                 <tr>
