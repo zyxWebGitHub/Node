@@ -176,7 +176,7 @@ npm install mongoose
    
    // ==================删除用户====================
    router.get('/delete',function(req,res){
-       // 通过 id 查找到对应用户进行删除 User.findByIdAndDelete()
+       // 通过 id 查找到对应用户进行删除 User.findByIdAndRemove()
        User.findByIdAndRemove(req.query.id.replace(/"/g,''),function(err){
            if(err){
                return res.status(500).send('server error')
